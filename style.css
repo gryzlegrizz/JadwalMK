@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka One:300,400,500,600,700,800,900&display=swap');
+*{
+    box-sizing: border-box; 
+    text-align: center;
+    font-family: 'Fredoka One';
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow: hidden;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #333333, black);
+}
+
+.box{
+    position: static;
+}
+
+.container
+{
+    position: relative;
+    width: 400px;
+    min-height: 400px;
+    background: linear-gradient(134deg, rgba(255, 255, 255, 0.1), rgba(88, 88, 255, 0.144));
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.form{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+}
+
+.form h2{
+    padding-bottom: 30px;
+}
+
+.form h2 span{
+    position: relative;
+    color: aliceblue;
+    font-size: 35px;
+    display: block;
+    font-weight: 600;
+    cursor: default;
+}
+
+.form .btnClass
+{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.form .btnClass button
+{
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 35px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: .5s;
+}
+
+.form .btnClass button:hover
+{
+    width: 95%;
+    font-size: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    color: skyblue;
+    transition: .5s;
+    cursor: pointer;
+    font-weight: 600;
+    text-shadow:0px 0px 12px lightblue;
+    box-shadow: 0px 0px 20px rgba(190, 190, 190, 0.1);
+}
